@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.all-link{
+    display: flex;
+    padding-right: 8%;
+    align-items: center;
+    margin:22px 0 22px 22px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.bimage {
+    background-image: url(dffd-min.jpg);
+    background-size:cover;
+    height:100vh;
+}
+.bcolor{
+    background-color:rgb(224, 88, 111);
+    height: 555px;
+
+}
+.one-icon{
+    background: rgb(25, 105, 253);
+    width: 100px;
+    height:100px;
+    margin: 108px auto 10px 40px;
+    border-radius:50%;
+}
+.b3{
+    width:300px;
+    height: 30px;
+}
