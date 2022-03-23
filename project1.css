@@ -10,28 +10,80 @@
     padding-right: 8%;
     align-items: center;
     margin:22px 0 22px 22px;
+    list-style: none;
 }
-nav{
+
+nav {
     flex:1;
     text-align: right;
 }
-nav ul li{
+nav li{
+    text-decoration:none;   
+}
+ ul li{
     list-style: none;
     display: inline-block;
     margin-left: 60px;
     color: black;
     text-transform: capitalize;
-    text-decoration: none;
+    text-decoration:none;
+    list-style: none;
 }
 .bimage {
     background-image: url(dffd-min.jpg);
     background-size:cover;
     height:100vh;
+    position: relative;
+    color: rgba(29, 67, 236, 0.712);
+}
+.bimage p{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    font-family:open sans-serif;
+    font-size: 24px;
+    color:black;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.bimage h1{
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    font-family:sans-serif;
+    text-decoration: bold;
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+.container{
+    position:absolute;
+    display: grid;
+    grid-template-columns:50px 50px 50px ;
+    grid-template-columns: 50px 50px 50px;
+}
+.grid img{
+    width: 200px;
+    height: 200px;
+}
+.grid:hover{
+    transition: 1s;
+    transform: scale(1.3);
 }
 .bcolor{
+    position:relative;
     background-color:rgb(224, 88, 111);
     height: 555px;
-
+}
+.what h1{
+    position:absolute;
+    top: 1em;
+    left:1em;
+}
+.b3 img{
+    width: 1000px;
+    height: 559px;
+    margin:24px auto 0px 0px;
 }
 .one-icon{
     background: rgb(25, 105, 253);
@@ -40,7 +92,44 @@ nav ul li{
     margin: 108px auto 10px 40px;
     border-radius:50%;
 }
-.b3{
-    width:300px;
-    height: 30px;
+
+.two-icon{
+    background:rgba(128, 128, 128, 0.075);
+    width: 200px;
+    height:200px;
+    margin: 108px auto 10px 40px;
+    border-radius:50%;
+    float: right;
 }
+.bothchild {
+    margin: 24px 24px 0px auto;
+    height:100vh;
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+
+.child1 h1{
+    font: size 36px;
+    color: black;
+    font-weight: lighter;    
+}
+
+.child2 img{
+height:500px;
+width:500px;
+}
+
+.child1 button{
+    margin-top:50px;
+    margin-left:14px;
+    padding:20px 46px 20px 46px;
+    border-color:rgb(199, 47, 72);
+}
+
+.child1 button:hover
+{
+    transition: .1s;
+    transform: scale(1.3);
+    background-color: black;
+    color:white;
+} 
