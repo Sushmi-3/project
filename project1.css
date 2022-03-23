@@ -30,7 +30,7 @@ nav li{
     list-style: none;
 }
 .bimage {
-    background-image: url(dffd-min.jpg);
+    background-image: url(./all/images/dffd-min.jpg);
     background-size:cover;
     height:100vh;
     position: relative;
